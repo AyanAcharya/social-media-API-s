@@ -25,6 +25,6 @@ app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
 app.use("/api/posts", postRoute);
 
-app.listen("https://social-media-api-s-production.up.railway.app", () => {
+app.listen(8800, () => {
   console.log("Backend server is running!");
 });
